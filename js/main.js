@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbwOye0yuhH07yz8D79RH_0algKrVphUDE2_6lfLfJbSNdji_4gh/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['general', '101-01', '101-ß2', 'marketing'];
+	const CATEGORIES = ['1) Disruptive Speech', '2) Technology Trends', '3) Industry Cases', '4) Venture Hypotheses', '5) Domain Experts'], '6) Macro Driver', '7) Maturity KPIs', '8) Top 3 Scenarios', '9) Red Line';
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
