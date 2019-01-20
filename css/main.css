@@ -134,6 +134,14 @@ footer p {
 }
 
 
+@media print {
+  img {
+	height: 30%;
+	}
+
+  hr.articlebreak {
+	page-break-after: always; }
+}
 
 
 
