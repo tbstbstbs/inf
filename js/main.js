@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbwOye0yuhH07yz8D79RH_0algKrVphUDE2_6lfLfJbSNdji_4gh/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['1) Disruptive Speech', '2) Technology Trends', '3) Industry Cases', '4) Venture Hypotheses', '5) Domain Experts', '6) Macro Driver', '7) Maturity KPIs', '8) Top 3 Scenarios', '9) Red Line',];	const state = {activePage: 1, activeCategory: null};
+	const CATEGORIES = ['Voice Internet', 'Cyber Security', 'Smart Cities', 'User Experience', 'Education & Learning', 'Ventures & Business Models', 'Coding & Tools', 'Science Deep Dives', 'Interviews', 'Trade & Policy', ];	const state = {activePage: 1, activeCategory: null};
 	const page = {};
 
 	function init () {
@@ -99,7 +99,7 @@ const app = function () {
 			page.notice.innerHTML = '';
 			page.notice.appendChild(link);
 		} else {
-			_setNotice('No more posts to display');
+			_setNotice('');
 		}
 	}
 

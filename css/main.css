@@ -42,7 +42,7 @@ header, main, footer {
 }
 
 header {
-	background: "rainbow.png" alt="logo for google sheets">;
+	background: white;
 	color: white;
 	text-align: center;
 }
@@ -69,10 +69,11 @@ nav span {
 
 nav button {
 	margin: 0 0.5em 1em 0;
+	text-transform: capitalize;
 }
 
 article {
-	margin-bottom: 6em;
+	margin-bottom: 2em;
 }
 
 .article-details {	
