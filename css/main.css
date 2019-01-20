@@ -181,6 +181,19 @@ footer p {
       top: 10px;
       height: 30px	
     }
+ img.footer-logo {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      height: 30px	
+ 
+ div.yellow-box {
+      position: absolute;
+      background-color: blue;
+      right: 10px;
+      top: 10px;
+      height: 30px;	
+    }    }
 }
 }
 
