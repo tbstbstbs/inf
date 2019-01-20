@@ -48,9 +48,8 @@ header, main, footer {
 
 header {
 	background: white;
-	color: #3e4648;
+	color: white;
 	text-align: center;
-	font-family: 'GothamRounded';
 }
 
 header h1 {
