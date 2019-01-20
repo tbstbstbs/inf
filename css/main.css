@@ -42,7 +42,7 @@ header, main, footer {
 }
 
 header {
-	background: #blue;
+	background: "rainbow.png" alt="logo for google sheets">;
 	color: white;
 	text-align: center;
 }
