@@ -76,7 +76,7 @@ const app = function () {
 		posts.forEach(function (post) {
 			const article = document.createElement('article');
 			article.innerHTML = `
-				<h2>${post.title}</h2>
+				<hr><br><h2>${post.title}</h2>
 				<div class="article-details">
 					<div>By ${post.author} on ${_formatDate(post.timestamp)}</div>
 					<div>Posted in ${post.category}</div>
