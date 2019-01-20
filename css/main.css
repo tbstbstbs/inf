@@ -26,9 +26,8 @@ img {
 	border-bottom: solid 0px;
 }
 
-hr
-{
-	border-top: 1px dashed gray;
+hr {
+	border-top-width: thin;
 }
 
 button {
