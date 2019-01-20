@@ -80,7 +80,7 @@ nav span {
 nav button {
 	margin: 0 0.5em 1em 0;
 	text-transform: capitalize;
-	background: white;
+	background-color: white;
 }
 
 article {
