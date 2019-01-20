@@ -24,6 +24,7 @@ a:hover {
 a.source-link {
 	border-bottom: 0px;
 	text-decoration: none;
+	font-size: xx-small;
 }
 
 
@@ -172,7 +173,7 @@ footer p {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    max-width: 460px;
     }
   img.footer-logo {
       position: absolute;
