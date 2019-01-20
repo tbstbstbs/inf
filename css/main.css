@@ -12,6 +12,11 @@ a {
 	text-decoration: none;
 }
 
+a.uns {
+	border-bottom: solid 0px #b2bec3;
+	text-decoration: none;
+}
+
 a:hover {
 	border-color: #1a1a1a;
 }
