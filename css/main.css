@@ -50,7 +50,8 @@ header {
 	background: white;
 	color: #3e4648;
 	text-align: center;
-
+	font-family: 'GothamRounded';
+}
 
 header h1 {
 	margin-bottom: 0;
