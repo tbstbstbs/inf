@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbwOye0yuhH07yz8D79RH_0algKrVphUDE2_6lfLfJbSNdji_4gh/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['Voice Internet', 'Venture Capital','Deep Tech', 'Product Innovations', 'Cyber Security', 'Smart Cities', 'User Experience', 'Education', 'Human Machines', 'Business Models', 'Tools', 'Science Deep Dives', 'Interviews', 'Global Trade', 'New Work', 'Open Source','Courses','Grants','Public Policy', ];	const state = {activePage: 1, activeCategory: null};
+	const CATEGORIES = ['Voice Internet', 'NLP/NLU' ];	const state = {activePage: 1, activeCategory: null};
 	const page = {};
 
 	function init () {
