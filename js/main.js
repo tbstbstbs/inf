@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbwOye0yuhH07yz8D79RH_0algKrVphUDE2_6lfLfJbSNdji_4gh/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['Artificial Intelligence','New Work', 'Co-Creation', 'Venture Capital','Startup Accelerator','Internet of Things','Technology Governance'];	const state = {activePage: 1, activeCategory: null};
+	const CATEGORIES = ['Artificial Intelligence', 'Co-Creation', 'New Work', 'Venture Capital','Startup Accelerator','Internet of Things','Technology Governance','Robotics & Sensors','Smart Cities','Industry 4.0', 'Connected Mobility', 'Coding', 'Voice Internet', 'Databases', 'People'];	const state = {activePage: 1, activeCategory: null};
 	const page = {};
 
 	function init () {
