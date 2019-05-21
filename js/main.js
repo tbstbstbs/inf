@@ -37,7 +37,7 @@ const app = function () {
 	}
 
 	function _buildFilter () {
-	    page.filter.appendChild(_buildFilterLink('See All', true));
+	    page.filter.appendChild(_buildFilterLink(true));
 
 	    CATEGORIES.forEach(function (category) {
 	    	page.filter.appendChild(_buildFilterLink(category, false));
