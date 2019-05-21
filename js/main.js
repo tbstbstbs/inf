@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbwOye0yuhH07yz8D79RH_0algKrVphUDE2_6lfLfJbSNdji_4gh/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['ai','agile', 'blockchain','data science','mobility','smart cities','ux','vc','voice internet',];	const state = {activePage: 1, activeCategory: null};
+	const CATEGORIES = ['ai','agile', 'blockchain','data science','mobility','smart cities','ux','voice internet',];	const state = {activePage: 1, activeCategory: null};
 	const page = {};
 
 	function init () {
